@@ -1,7 +1,10 @@
 streamlit
-opencv-python-headless>=4.5.5
+opencv-python-headless
 face_recognition @ git+https://github.com/ravinder2023/dlib_face_recognition.git
-tensorflow>=2.10.0
-keras>=2.10.0
+tensorflow
+keras
 pandas
 numpy
+
+# Clean re-install without forcing older versions of built-ins
+--no-deps
